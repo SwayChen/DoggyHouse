@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Airedale Terrier",
+    "avatar": "airedale_terrier",
+    "temperament": "Friendly, Clever, Courageous",
+    "desc": "His size, strength, and unflagging spirit have earned the Airedale Terrier the nickname “The King of Terriers.” The Airedale stands among the world’s most versatile dog breeds and has distinguished himself as hunter, athlete, and companion."
+  },
+  {
+    "name": "Alaskan Klee Kai",
+    "avatar": "alaskan_klee_kai",
+    "temperament": "Loyal, Intelligent, Vigilant",
+    "desc": "The Alaskan Klee Kai is a small-sized companion dog that is alert, energetic, and curious, yet reserved with unfamiliar people and situations. They come in three different sizes.\n\nThe Alaskan Klee Kai has a symmetrical contrasting facial mask and body markings. This small northern-type companion breed is alert, energetic and curious. Naturally reserved with strangers, AKK require early socialization and training."
+  },
+  {
+    "name": "American Eskimo Dog",
+    "avatar": "american_eskimo_dog",
+    "temperament": "Playful, Perky, Smart",
+    "desc": "The American Eskimo Dog comes in three sizes—standard, miniature, and toy—standing as tall as 19 inches at the shoulder or as short as 9 inches. Distinctive traits include a dense, sparkling white coat with a lion-like ruff around the chest and shoulders; a smiling face, with black nose, lips, and eye-rims that convey a keen, intelligent expression; and a plumed tail carried over the back. Some Eskies have markings with the delicious color name “biscuit cream.” They move with a bold and agile gait.\n\nEskies are social animals and can develop problem behaviors when neglected or undertrained—they insist on being part of family life. Among the most trainable of breeds, the clever, kid-friendly Eskie practically invented the phrase “eager to please.”"
+  },
+  {
+    "name": "Bearded Collie",
+    "avatar": "bearded_collie",
+    "temperament": "Smart, Bouncy, Charismatic",
+    "desc": "Standing 20 to 22 inches at the shoulder and covered head to tail in a shaggy double coat, Beardies bear a passing resemblance to another British favorite, the Old English Sheepdog. Beneath the coats, Beardies are the more lean and angular of the two. The lavish facial hair shouldn’t obscure the characteristic expression: a dreamy, faraway gaze.\nThese rambunctious comics can be a handful—but mostly, Beardies are approximately 50 pounds of heart, energy, and laughter. Well-socialized Beardies will get on nicely with other animals and kids. They bore easily, and training must be kept interesting. Outdoorsy families looking for a sturdy dog to share an uptempo lifestyle will never find a more affectionate and amusing sidekick."
+  },
+  {
+    "name": "Belgian Tervuren",
+    "avatar": "belgian_tervuren",
+    "temperament": "Courageous, Alert, Intelligent",
+    "desc": "The Belgian Tervuren is characterized by a straight and abundant coat, an elegant but muscular frame, a proudly carried head, an alert and intelligent demeanor, and an insatiable work drive. The Tervuren’s coat furnishings, like the sporty “collarette” around the neck, are more profuse on males, who run larger than females.\n\n“Their intelligence and high activity level can be a challenge for the less creative individual who may not understand the breed’s need to work,” warns one longtime owner. But don’t get the idea that Tervurens are grim, mechanical worker drones. In fact, this breed takes real delight in their ability to master any task, and owners say a mischievous sense of humor is at work whenever Tervurens outsmart their beloved human."
+  },
+  {
+    "name": "Belgian Sheepdog",
+    "avatar": "belgian_sheepdog",
+    "temperament": "Bright, Watchful, Serious-Minded",
+    "desc": "The stirring silhouette of a Belgian Sheepdog conveys both elegance and muscular determination. A handsome feature of the breed is the exceedingly proud carriage of the head and neck. A male might stand 26 inches at the shoulder; females are smaller. The dark eyes sparkle with a questioning intelligence, and the black coat is abundant, from the neck’s “collarette” to the “breeches” of the hindquarters. In all ways, Belgian Sheepdogs are bright-eyed and bushy-tailed.\n\nIn any sport or activity, a Belgian will always give 100 percent. In turn, owners tend to form a special bond with their eager workaholics. As one devotee puts it, Belgians “inspire such intense loyalty because they themselves live and love with such great passion.”"
+  },
+  {
+    "name": "Bichon Frise",
+    "avatar": "bichon_frise",
+    "temperament": "Playful, Curious, Peppy",
+    "desc": "A good-size Bichon will stand a shade under a foot tall at the shoulder. The breed’s glory is a white hypoallergenic coat, plush and velvety to the touch, featuring rounded head hair that sets off the large, dark eyes and black leathers of the nose and lips.\n\nBichons are adaptable companions who get on well with other dogs and children. Alert and curious, Bichons make nice little watchdogs—but they are lovers, not fighters, and operate under the assumption that there are no strangers, just friends they haven’t met yet. Their confidence and size make them ideal city dogs. Bichons train nicely and enjoy performing for their loved ones. Finally, there’s the happy-go-lucky Bichon personality that draws smiles and hugs wherever they go."
+  },
+  {
+    "name": "Boykin Spaniel",
+    "avatar": "boykin_spaniel",
+    "temperament": "Friendly, Eager, Lovable",
+    "desc": "Boykins are medium-sized spaniels, larger and rangier than Cockers but more compact than Springers. The breed’s hallmark is a beautiful solid-brown coat. Colors range from a rich liver to a luscious chocolate. The large, feathery ears hang close to the cheeks, setting off an expression of soulful intelligence. Bred to work in the lakes and swamps of their native South Carolina, web-toed Boykins can swim like seals.\n\nFor years, Boykins were known only to hunters of Carolina waterfowl and wild turkey. But lately, the wider world has discovered that the Boykin is as delightful at home as he is eager at the lake. “They are very, very sweet dogs to have around the family,” a longtime owner says, “but an absolute tiger in the field.”"
+  },
+  {
+    "name": "German Shepherd Dog",
+    "avatar": "german_shepherd_dog",
+    "temperament": "Confident, Courageous, Smart",
+    "desc": "German Shepherd Dogs can stand as high as 26 inches at the shoulder and, when viewed in outline, presents a picture of smooth, graceful curves rather than angles. The natural gait is a free-and-easy trot, but they can turn it up a notch or two and reach great speeds.\n\nThere are many reasons why German Shepherds stand in the front rank of canine royalty, but experts say their defining attribute is character: loyalty, courage, confidence, the ability to learn commands for many tasks, and the willingness to put their life on the line in defense of loved ones. German Shepherds will be gentle family pets and steadfast guardians, but, the breed standard says, there’s a “certain aloofness that does not lend itself to immediate and indiscriminate friendships.”"
+  },
+  {
+    "name": "Golden Retriever",
+    "avatar": "golden_retriever",
+    "temperament": "Friendly, Intelligent, Devoted",
+    "desc": "The Golden Retriever is a sturdy, muscular dog of medium size, famous for the dense, lustrous coat of gold that gives the breed its name. The broad head, with its friendly and intelligent eyes, short ears, and straight muzzle, is a breed hallmark. In motion, Goldens move with a smooth, powerful gait, and the feathery tail is carried, as breed fanciers say, with a “merry action.”\n\nThe most complete records of the development of the Golden Retriever are included in the record books that were kept from 1835 until about 1890 by the gamekeepers at the Guisachan (pronounced Gooeesicun) estate of Lord Tweedmouth at Inverness-Shire, Scotland. These records were released to public notice in Country Life in 1952, when Lord Tweedmouth’s great-nephew, the sixth Earl of Ilchester, historian and sportsman, published material that had been left by his ancestor. They provided factual confirmation to the stories that had been handed down through generations."
+  }
+]
