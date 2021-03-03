@@ -1,25 +1,27 @@
 package com.example.androiddevchallenge
 
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
+import android.view.View
+import android.view.WindowInsetsController
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.core.view.doOnLayout
 import com.example.androiddevchallenge.model.DoggyModel
 
 class DetailActivity : AppCompatActivity() {
@@ -29,6 +31,19 @@ class DetailActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        @Suppress("DEPRECATION")
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            window.decorView.doOnLayout {
+                it.windowInsetsController?.setSystemBarsAppearance(
+                    WindowInsetsController.APPEARANCE_LIGHT_STATUS_BARS,
+                    WindowInsetsController.APPEARANCE_LIGHT_STATUS_BARS
+                )
+            }
+        } else {
+            window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+        }
+
         val doggy = intent.getParcelableExtra<DoggyModel>(SELECTED_DOGGY)
         selectedPosition = intent.getIntExtra(SELECTED_POSITION, 0)
         if (doggy == null) {
@@ -77,7 +92,6 @@ fun ShowDogDetail(dog: DoggyModel) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(16.dp)
             .verticalScroll(rememberScrollState())
     ) {
         DoggyAvatar(
@@ -122,9 +136,7 @@ fun DoggyAvatar(avatar: String, name: String) {
         Image(
             painter = image,
             contentDescription = name,
-            modifier = Modifier
-                .fillMaxWidth()
-                .clip(RoundedCornerShape(6.dp)),
+            modifier = Modifier.fillMaxWidth(),
             contentScale = ContentScale.Crop
         )
     }
@@ -132,12 +144,22 @@ fun DoggyAvatar(avatar: String, name: String) {
 
 @Composable
 fun DoggyTemperament(temperament: String) {
-    Text(
-        text = temperament,
-        fontSize = 22.sp,
-        color = Color.Blue,
-        style = MaterialTheme.typography.subtitle1
-    )
+    Column(
+        modifier = Modifier.padding(24.dp, 0.dp, 24.dp, 0.dp)
+    ) {
+        Text(
+            text = "Temperament:",
+            fontSize = 22.sp,
+            color = Color.Blue,
+            style = MaterialTheme.typography.subtitle1
+        )
+        Text(
+            text = temperament,
+            fontSize = 16.sp,
+            color = Color.Blue,
+            style = MaterialTheme.typography.body2
+        )
+    }
 }
 
 @Composable
@@ -145,15 +167,18 @@ fun DoggyDesc(introduction: String) {
     Text(
         text = introduction,
         fontSize = 18.sp,
-        style = MaterialTheme.typography.body1
+        style = MaterialTheme.typography.body1,
+        modifier = Modifier.padding(24.dp, 0.dp, 24.dp, 0.dp)
     )
 }
 
 @Composable
 fun AdoptButton(adopted: Boolean) {
     Box(
-        modifier = Modifier.fillMaxWidth(),
-        contentAlignment = Alignment.Center
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(0.dp, 24.dp, 0.dp, 24.dp),
+        contentAlignment = Alignment.Center,
     ) {
         Button(
             onClick = { showConfirmDialog = true },

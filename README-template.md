@@ -6,12 +6,11 @@
 
 
 ## :scroll: Description
-<!--- Describe your app in one or two sentences -->
+A simple App to show doggy types and details for adoption
 
 
 ## :bulb: Motivation and Context
-<!--- Optionally point readers to interesting parts of your submission. -->
-<!--- What are you especially proud of? -->
+A simple sample written by Jetpack Compose trying to learn how Jetpack Compose works.
 
 
 ## :camera_flash: Screenshots
